@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37216.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1.csproj", "{FE74C30A-FC1E-46A7-8F9D-F9B4B6C7BD50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+	ProjectSection(SolutionItems) = preProject
+		AppConfig.cs = AppConfig.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{35DA2912-E984-4CB6-B0FC-ECB06C099893}"
+	ProjectSection(SolutionItems) = preProject
+		HangulAutomata.cs = HangulAutomata.cs
+		LogManager.cs = LogManager.cs
+		TcpServer.cs = TcpServer.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{99172AFF-37E3-4211-8AA6-61BF6E61122C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE74C30A-FC1E-46A7-8F9D-F9B4B6C7BD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE74C30A-FC1E-46A7-8F9D-F9B4B6C7BD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE74C30A-FC1E-46A7-8F9D-F9B4B6C7BD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE74C30A-FC1E-46A7-8F9D-F9B4B6C7BD50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB4DC1D3-2AC0-41A9-A47F-7733FD6D4330}
+	EndGlobalSection
+EndGlobal
